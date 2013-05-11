@@ -22,8 +22,8 @@ This is an example of the unicity in Mathematics, advocated by L. Lovasz in his 
 To get the drawings one has apply three times the full strength of network flow theory.
 The drawings BLINK presents are in an integer grid and 
 deterministically minimize the number of $\pi/2$-bents in the blackboarded framed links.
-In particular, it permit us to deal with the unavoidable curls which adjust the integer framing in a 
-v way: we do not care about them. 
+In particular, it permit us to deal with the unavoidable curls which adjust the integer framing in
+the best possible way: we do not care about them. 
 The drawings for the companion blinks are a slight modification: it replaces each $p$-valent vertex $p>4$,
 by a $p$-polygon inducing 3-valent ones. The final result is massaged a bit to
 produce aesthetically nice and unambiguous drawings.

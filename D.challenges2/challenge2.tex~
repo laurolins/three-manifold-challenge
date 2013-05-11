@@ -84,7 +84,7 @@ domain of 3-manifolds being induced by blackboard framed links (for short {\em b
 up to 9 crossings (9-small 3-manifolds).
 A subset of relevant 10-crossings bfl's were generated but their topological classification remains untouched.
 The paper was taken seriously by a few researchers, among them M. Culler, N. Dunfield and C. Hodgson 
-among others that could solve them very quickly using GAP, SnapPy, Sage, tools that were unknown to us. 
+and others that could solve them very quickly using GAP, SnapPy, Sage, tools that were unknown to us. 
 The solutions were obtained by distinct methods and are all consistent (inclusive with BLINK 
 the program of L. Lins (implementing my theory described in \cite{lins1995gca}), which support his thesis). Together
 with my colleague Cristiana Nascimento, here at CIn/UFPE, I am learning fast to operate these wonderful tools.
