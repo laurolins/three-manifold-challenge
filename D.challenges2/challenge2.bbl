@@ -1,0 +1,74 @@
+\begin{thebibliography}{10}
+
+\bibitem{hodgson1994symmetries}
+C.~D. Hodgson and J.~R. Weeks.
+\newblock Symmetries, isometries and length spectra of closed hyperbolic
+  three-manifolds.
+\newblock {\em Experimental Mathematics}, 3(4):261--274, 1994.
+
+\bibitem{kauffman1994tlr}
+L.H. Kauffman and S.~Lins.
+\newblock {Temperley-Lieb Recoupling Theory and Invariants of 3-manifolds}.
+\newblock {\em Annals of Mathematical Studies, Princeton University Press},
+  134:1--296, 1994.
+
+\bibitem{lins2007blink}
+L.D. Lins.
+\newblock Blink: a language to view, recognize, classify and manipulate
+  3{D}-spaces.
+\newblock {\em Arxiv preprint math/0702057}, 2007.
+
+\bibitem{lins1995gca}
+S.~Lins.
+\newblock {\em {Gems, Computers, and Attractors for 3-Manifolds}}.
+\newblock World Scientific, 1995.
+
+\bibitem{linslinschallenge2013}
+S.~Lins and S.~Lins.
+\newblock A challenge to 3-manifold topologists and group algebraists.
+\newblock {\em arXiv:1304.5964v4 [math.GT]}, 2013.
+
+\bibitem{linsmachadoA2012}
+S.~Lins and R.~Machado.
+\newblock Framed link presentations of 3-manifolds by an ${O}(n^2)$ algorithm,
+  {I}: gems and their duals.
+\newblock {\em arXiv:1211.1953v2 [math.GT]}, 2012.
+
+\bibitem{linsmachadoB2012}
+S.~Lins and R.~Machado.
+\newblock Framed link presentations of 3-manifolds by an ${O}(n^2)$ algorithm,
+  {II}: colored complexes and boundings in their complexity.
+\newblock {\em arXiv:1212.0826v2 [math.GT]}, 2012.
+
+\bibitem{linsmachadoC2012}
+S.~Lins and R.~Machado.
+\newblock Framed link presentations of 3-manifolds by an ${O}(n^2)$ algorithm,
+  {III}: geometric complex $\mathcal{H}_n^\star$ embedded into $\mathbb{R}^3$.
+\newblock {\em arXiv:1212.0827v2 [math.GT]}, 2012.
+
+\bibitem{lovasz1998om}
+L.~Lovasz.
+\newblock {One Mathematics}.
+\newblock {\em The Berliner Intelligencer, Berlin}, pages 10--15, 1998.
+
+\bibitem{rolfsen2003knots}
+D.~Rolfsen.
+\newblock {\em Knots and links}.
+\newblock American Mathematical Society, 2003.
+
+\bibitem{stillwell1993classical}
+J.~Stillwell.
+\newblock {\em {Classical Topology and Combinatorial Group Theory}}.
+\newblock Springer Verlag, 1993.
+
+\bibitem{tamassia1987egg}
+R.~Tamassia.
+\newblock {On Embedding a Graph in the Grid with the Minimum Number of Bends}.
+\newblock {\em SIAM Journal on Computing}, 16:421, 1987.
+
+\bibitem{whitehead1997}
+A.~N. Whitehead.
+\newblock {\em The classical groups: their invariants and representations}.
+\newblock Princeton {U}niversity {P}ress, 1997.
+
+\end{thebibliography}

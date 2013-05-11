@@ -1,0 +1,53 @@
+% \section{Conclusion}
+% A closed orientable 3-manifold is denoted {\em $n$-small} if it is induced by surgery on
+% a blackboard framed link with at most $n$ crossings.
+% Our bet is that both pairs of 3-manifolds in the 2 first sections of 
+% this short note are not homeomorphic. This would mean that the $9$-small manifolds are
+% completely classified and that
+% the combinatorial dynamics of Chapter 4 in \cite{lins1995gca} based 
+% on $TS$-moves which leads to a  (small, in the case of hyperbolic 3-manifolds)
+% number of minimal gems, named the {\em attractor of
+% the 3-manifold} is successful. This induces an efficient algorithm which 
+% is capable of classifying topologically all the 3-manifolds given as a blackboard framed link
+% with up to (so far) 9 crossings and maintains live the two Conjectures of page 15 of \cite{lins1995gca}:
+% the $TS$- and $u^n$-moves yield an efficient algorithm
+% to classify $n$-small 3-manifolds by explicitly displaying homeomorphisms, whenever they exist.
+
+\section{A concluding remark}
+By the way, the elegant drawings of blinks and blackboard framed links produced by BLINK are 
+possible due the groundbreaking algorithm of R. Tamasia \cite{tamassia1987egg}.
+Lauro could implement the drawings very fast because we had at hand the implementation of
+network flow algorithms he had done for a project to solve timetable problems.
+This is an example of the unicity in Mathematics, advocated by L. Lovasz in his famous essay \cite{lovasz1998om}.
+To get the drawings one has apply three times the full strength of network flow theory.
+The drawings BLINK presents are in an integer grid and 
+deterministically minimize the number of $\pi/2$-bents in the blackboarded framed links.
+In particular, it permit us to deal with the unavoidable curls which adjust the integer framing in a 
+v way: we do not care about them. 
+The drawings for the companion blinks are a slight modification: it replaces each $p$-valent vertex $p>4$,
+by a $p$-polygon inducing 3-valent ones. The final result is massaged a bit to
+produce aesthetically nice and unambiguous drawings.
+
+
+%-----------------------------------
+\bibliographystyle{plain}
+%\bibliographystyle{is-alpha}
+%\addcontentsline{toc}{bibliografia}{\MakeTextUppercase{Referências Bibliográficas}}
+%\bibliography{d:/slsl\3.DadosSostenes.35.ArtigosLivros.bibtexGoogleScholar/bibtexIndex.bib} % bib file is slsl.bib
+%\bibliography{~/home/ricardo/Dropbox/35.ArtigosLivros.bibtexGoogleScholar/bibtexIndex.bib}
+\bibliography{bibtexIndex.bib}
+%\bibliography{slsl}
+
+
+\vspace{5mm}
+\begin{center}
+\hspace{7mm}
+\begin{tabular}{l}
+   S\'ostenes L. Lins\\
+   Centro de Inform\'atica, UFPE \\
+   Av. Jornalista Anibal Fernandes s/n\\
+   Recife, PE 50740-560 \\
+   Brazil\\
+   sostenes@cin.ufpe.br
+\end{tabular}
+\end{center}
