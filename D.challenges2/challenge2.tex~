@@ -40,7 +40,7 @@
 \def\U{\mathcal U}
 \def\Z{\mathbb Z}
 
-\title{A tougher challenge to 3-manifold topologists and group algebraists
+\title{A tougher challenge to 3-manifold topologists \\ and  group algebraists
 \footnote{2010 Mathematics Subject Classification: 
 57M25 and 57Q15 (primary), 57M27 and 57M15 (secondary)}} 
 \author{Sóstenes L. Lins}
@@ -187,7 +187,7 @@ capability. Another example of such new algorithms that I want to include in BLI
 in Ricardo Machado's thesis
 under my supervision, defended in March, 2013. We got an $O(n^2)$-algorithm for going from a special kind of gem, 
 named {\em resoluble gem}, to 
-a blink inducing the same manifold. This work is available, in still rather sketch form (even the definition of 
+a blink inducing the same manifold. This work is available, in still rather sketchy form (even the definition of 
 resolubility is unecessary complicated), in the three joint papers
 posted last year in the arXiv, {\cite {linsmachadoA2012, linsmachadoB2012, linsmachadoC2012}. The algorithm was
 implemented in Mathematica, but it needs to be improved and re-implemented in Java or C++. 
@@ -343,9 +343,7 @@ this bound is attained.}
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=11cm]{1.figs/T16_141.pdf}
-\caption{\sf I do not know whether the above four manifolds are homeomorphic or not. 
-BLINK says that there are at most two homeomorphisms classes among the four and I bet that 
-this bound is attained.}
+\caption{\sf I do not know whether the above two manifolds are homeomorphic or not.}
 \label{fig:T16_141}
 \end{center}
 \end{figure}

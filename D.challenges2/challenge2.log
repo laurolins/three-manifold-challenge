@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.11)  12 MAY 2013 11:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.11)  12 MAY 2013 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -379,6 +379,9 @@ File: 1.figs/T16_141.pdf Graphic file (type pdf)
 <use 1.figs/T16_141.pdf>
 Package pdftex.def Info: 1.figs/T16_141.pdf used on input line 345.
 (pdftex.def)             Requested size: 312.9803pt x 146.44598pt.
+
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
  [8 <./1.figs/T16_140.pdf> <./1.figs/T16_141.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./1.figs/T16_141.pdf): PDF inclusion: m
@@ -387,14 +390,14 @@ ultiple pdfs with page group included in a single page
 File: 1.figs/T16_142.pdf Graphic file (type pdf)
 
 <use 1.figs/T16_142.pdf>
-Package pdftex.def Info: 1.figs/T16_142.pdf used on input line 357.
+Package pdftex.def Info: 1.figs/T16_142.pdf used on input line 355.
 (pdftex.def)             Requested size: 341.43306pt x 157.90468pt.
 
 <1.figs/T16_149.pdf, id=159, 389.3575pt x 292.28622pt>
 File: 1.figs/T16_149.pdf Graphic file (type pdf)
 
 <use 1.figs/T16_149.pdf>
-Package pdftex.def Info: 1.figs/T16_149.pdf used on input line 365.
+Package pdftex.def Info: 1.figs/T16_149.pdf used on input line 363.
 (pdftex.def)             Requested size: 341.43306pt x 256.31621pt.
  [9 <./1.figs/T16_142.pdf> <./1.figs/T16_149.pdf
 
@@ -404,7 +407,7 @@ ultiple pdfs with page group included in a single page
 File: 1.figs/T16_233.pdf Graphic file (type pdf)
 
 <use 1.figs/T16_233.pdf>
-Package pdftex.def Info: 1.figs/T16_233.pdf used on input line 377.
+Package pdftex.def Info: 1.figs/T16_233.pdf used on input line 375.
 (pdftex.def)             Requested size: 341.43306pt x 161.56151pt.
  [10 <./1.figs/T16_233.pdf>]
 \openout2 = `conclbibaffi.aux'.
@@ -437,7 +440,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./1.figs/DirDomT79.pdf): PDF inclusion:
 Here is how much of TeX's memory you used:
  3501 strings out of 493485
  46585 string characters out of 3143526
- 114129 words of memory out of 3000000
+ 114131 words of memory out of 3000000
  6720 multiletter control sequences out of 15000+200000
  16072 words of font info for 62 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -458,7 +461,7 @@ mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on challenge2.pdf (13 pages, 503848 bytes).
+Output written on challenge2.pdf (13 pages, 503925 bytes).
 PDF statistics:
  301 PDF objects out of 1000 (max. 8388607)
  206 compressed objects within 3 object streams
