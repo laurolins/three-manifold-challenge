@@ -1,5 +1,14 @@
 \begin{thebibliography}{10}
 
+\bibitem{snappy}
+M.~Culler, N.~M. Dunfield, and J.~Weeks.
+\newblock Snappy, a computer program for studying the geometry and topology of
+  3-manifolds, 2012.
+
+\bibitem{gap2002gap}
+GAP Group et~al.
+\newblock Gap -- {G}roups, {A}lgorithms and {P}rogramming, version 4.3, 2002.
+
 \bibitem{hodgson1994symmetries}
 C.~D. Hodgson and J.~R. Weeks.
 \newblock Symmetries, isometries and length spectra of closed hyperbolic
@@ -11,6 +20,11 @@ L.H. Kauffman and S.~Lins.
 \newblock {Temperley-Lieb Recoupling Theory and Invariants of 3-manifolds}.
 \newblock {\em Annals of Mathematical Studies, Princeton University Press},
   134:1--296, 1994.
+
+\bibitem{Klarreich1012}
+E~Klarreich.
+\newblock Getting into shapes: from hyperbolic geometry to cube complexes.
+\newblock {\em Simons Foundation}, October, 2012.
 
 \bibitem{lins2007blink}
 L.D. Lins.
@@ -55,6 +69,13 @@ L.~Lovasz.
 D.~Rolfsen.
 \newblock {\em Knots and links}.
 \newblock American Mathematical Society, 2003.
+
+\bibitem{sage2012}
+W.~Stein.
+\newblock {\em {Sage}: {O}pen {S}ource {M}athematical {S}oftware ({V}ersion
+  2.10.2)}.
+\newblock The Sage~Group, 2008.
+\newblock {\tt http://www.sagemath.org}.
 
 \bibitem{stillwell1993classical}
 J.~Stillwell.

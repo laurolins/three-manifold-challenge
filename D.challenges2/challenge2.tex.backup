@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt,twoside]{article}
+\documentclass[a4paper,12pt,twoside]{article}
 
 %===========PACOTES
 \usepackage[body={165mm,235mm}]{geometry}
@@ -67,8 +67,8 @@ cited in the preface of the first edition (1939) of A. N. Whitehead's book
 In this paper I focus on new uncertainties left unanswered in L. Lins thesis \cite{lins2007blink}
 on the homemorphism problem of eleven concrete pairs of closed orientable 3-manifolds induced
 by 3-connected monochromatic {\em blinks} (\cite{kauffman1994tlr}). The eleven HG8QI-classes are the 
-only doubts left in the thesis, but first two of the eleven were solved few days ago and 
-I report on the solution.
+only doubts left in the thesis, but the first two of them were solved few days ago and 
+in this work I report on their solutions.
 
 
 \end{abstract}
@@ -76,74 +76,88 @@ I report on the solution.
 
 \section{Introduction}
 In a joint recent paper posted recently in the arXiv (\cite{linslinschallenge2013}) 
-my son Lauro Lins and me ask some 6 years old questions for which we had no answers
+my son Lauro Lins and myself ask some 6 years old questions for which we had no answers
 about homeomorphisms between closed orientable 3-manifolds. The two pairs of 3-manifolds
 were the only uncertainties that were left in L. Lins thesis  
 (\cite{lins2007blink}) under my supervision in the 
-domain of 3-manifolds being induced by blackboard framed links (for short {\em bfl}'s) 
-up to 9 crossings (9-small 3-manifolds).
-A subset of relevant 10-crossings bfl's were generated but their topological classification remains untouched.
-The paper was taken seriously by a few researchers, among them M. Culler, N. Dunfield and C. Hodgson 
-among others that could solve them very quickly using GAP, SnapPy, Sage, tools that were unknown to us. 
-The solutions were obtained by distinct methods and are all consistent (inclusive with BLINK 
+domain of 3-manifolds being induced by monochromatic blinks
+up to 9 edges (9-small 3-manifolds).
+A subset of relevant 10-crossings blinks were generated but their topological classification remains untouched.
+The paper was taken seriously by a few researchers, among them M. Culler, N. Dunfield, C. Hodgson 
+and others that could solve them very quickly using GAP (\cite{gap2002gap}), Sage (\cite{sage2012}) 
+and SnapPy (\cite{snappy}), 
+tools that (except for GAP) were basically unknown to us. 
+The solutions were obtained by distinct methods and are all consistent (inclusive with BLINK, 
 the program of L. Lins (implementing my theory described in \cite{lins1995gca}), which support his thesis). Together
 with my colleague Cristiana Nascimento, here at CIn/UFPE, I am learning fast to operate these wonderful tools.
-The solutions people found shows that BLINK, does a complete job in
-topologically classifying the 9-small 3-manifolds.
+The solutions people found shows that BLINK does a complete job in
+topologically classifying the 9-small 3-manifolds. 
+This is the subject of a joint paper with Lauro, currently under preparation.
 
 
-The first solution that I got, and that blew my mind,  
+The first solution that I got, and that still blows my mind,  
 was by Craig Hodgson using length spectra techniques, based in his
 joint paper with J. Weeks entitled {\em Symmetries, 
 isometries and length spectra of closed hyperbolic three-manifolds} 
 (\cite{hodgson1994symmetries}). By using SnapPy Craig showed that even though the 
 quantum WRT-invariants as well as the volumes of the 
-hyperbolic $Z$-homology spheres induced by the bfl's),
+hyperbolic $Z$-homology spheres induced by the bfl's,
 $U[1466]$ and $U[1563]$ are the same, the length of the 
 smallest geodesics of them are distinct. For the other pair of bfl's $U[2125]$ and $U[2165]$ he shows that 
 precisely the same facts apply. Here is a summary of Craig's findings extracted from the SnapPy session
-that he kindly sent me:\\
+that he kindly sent me. As Craig writes: {\em ``The output of the length spectrum command shows the {\em complex lengths}
+of closed geodesics --- the real part is the actual length and the imaginary part is the rotation angle
+as you go once around the geodesic.''}\\
 \begin{center}
 \center{Class $9_{126}$:}
 \begin{verbatim}
-From first geodesic of U[1466]: 1.0152103824828331+0.39992347315914334j.
-From first geodesic of U[1563]: 0.9359206605025168+2.333526236965665j.
+First geodesic of U[1466]: 1.0152103824828331+0.39992347315914334i.
+First geodesic of U[1563]: 0.9359206605025168+2.333526236965665i.
 Volume of both manifolds: 7.36429600733.
 \end{verbatim}
 \center{Class $9_{199}$:}
 \begin{verbatim}
-From first geodesic of U[2125]:  0.8939075859248593+0.761197185679321j.
-From first geodesic of U[2165]:  0.7978548001747316+2.9487425029345973j.
-Volume of both manifolds: 7.12868652133
+First geodesic of U[2125]:  0.8939075859248593+0.761197185679321i.
+First geodesic of U[2165]:  0.7978548001747316+2.9487425029345973i.
+Volume of both manifolds: 7.12868652133.
 \end{verbatim}
 \end{center}
 
- 
 
-There were 3 previous versions of \cite{linslinschallenge2013} that I appeared before,
-because of annoying mistakes in the presentations and in focusing the challenge in a broader context.
-By the way, the presentations are redundant because the blink is enough to define the 3-manifold.
+I post 4 versions of \cite{linslinschallenge2013} correcting annoying mistakes 
+in the presentations of the fundamental groups, putting a second pair of links,  
+and in focusing the challenge in a broader context.  
+I computed the presentations manually and I had a hard time making them correct.
+Even though the presentations are redundant because the blink is enough to 
+define the 3-manifold, as explained in  \cite{kauffman1994tlr},
+my objective was to facilitate the work for those wanting to use GAP.
 The time spanned between the first (April 22, 2013) and the last version (May 1, 2013) 
 was a little more than one week. 
-Even so, some people
-including Nathan Dunfield worked with the wrong presentations. Not without reason he was angry at me,
-but I think that this is no longer true, since he was willing to answer my sometime naive and stupid 
-questions and send me a solution for the first pair of manifolds of the present work, 
-using Sage and GAP computations, by working with covers. I did not know these tools. Also 
-I did not know that the blog on lower dimensional topology
+During these revisions I was completely unaware that the paper had called the attention
+of many people. I did not know that the blog on lower dimensional topology
 was very active exposing my incorrections and I apologize for my ignorance. 
-I thank Cristiana for having calling the blog to my attention.
-But I learn fast and do believe that I have something important and different to say in this brave new world of
-3-manifolds... After all I have been putting a great amount of time and effort during my scientific carreer, 
-(as basically as an isolated researcher) on (mainly closed) 3-manifods. I seek no longer to be isolated.
+I thank Cristiana for having calling the blog to my attention. Worse is that 
+some people did not see the follow up versions.
+This was the case of Nathan Dunfield who worked with the 
+wrong presentations. Not without reason he was angry at me,
+but I think that this is no longer true, since he was willing to answer my sometimes naives and stupid 
+questions and send me a solution for the first pair of manifolds of the present work, 
+using SanpPy, Sage and GAP computations, by working with covers. I did not know these tools. Also 
 
-Marc Culler was very helpful in answering questions of me and helping Cristiana about downloading and 
+But I learn fast and do believe that I have something important and different to say in this brave new world of
+3-manifolds... (See the wonderful essay of E. Klarreeich in the Simons Foundation (march 2012), 
+\cite{Klarreich1012}.) After all I have been putting a great amount of time and effort during my scientific carreer, 
+(most of the time as an isolated researcher) on (mainly closed) 3-manifods. I seek no longer to be isolated: my team
+is the World, my compromisse is with Truth (independently of whom first found it).
+
+Marc Culler was very helpful in answering questions of me and Cristiana and helping her about issues in the 
+downloading and 
 installing SnapPy and Sage and GAP in her machine. After the presentation incorrections out of the 
 way he produced an independent proof of the distinctveness of $(U[1466, U[1563])$ and of 
 $(U[2125, U[2165])$. He also produced instantaneous isomorphic triangulations of the homeomorphic
 3-manifolds in the classes $9_{126}$ and $9_{199}$. This fact makes me anxious to compare and timing the 
 performances of BLINK and SnapPy regarding finding homeomorphisms of $k$-small 3-manifolds when the 
-homeomrphisms exist.
+homeomorphisms exist. 
 
 In this paper I put some new challenges (also coming from
 \cite{lins2007blink}), that seem harder than the ones considered in the previous paper. The reason I think so
@@ -154,53 +168,54 @@ where the performance of these programs in this issue could be compared, if anyo
 BLINK is not documented and one of my objectives is to seek for help in doing it and extend its capability.
 BLINK is hosted at Github under the userid {\em laurolins} and is open source code project. Unfortunately him (currently
 a researcher at AT\&T) does not have the necessary time to go on with the implementation. But he welcomes and 
-is willing to help collaborators in gettig started. 
+is willing to help collaborators in getting started. 
 As for me, I am too old for the energy needed to construct good pieces of software. I intend to act
-as one Scientific Supervisor for the deployment and for the discussions the new algorithms algorithms 
+as one of some Scientific Supervisors for the deployment and for the discussions of the new algorithms  
 to be included in BLINK, but only at the mathematical level. The technological and software engineering
-needed I leave to others. 
+screws and bolts needed, I leave to others. 
 
-An example of such new algoriths that we want to include in BLINK is made possible by the theory 
+
+An algorithm that I want to attach to BLINK is finding a uniformly distributed random closed orientable 3-manifold induced 
+by a blink with an arbitrary number (even thousands) of edges. I want to gather evidence 
+for the truth of some important conjectures that depend on this
+capability. Another example of such new algorithms that I want to include in BLINK is made possible by the theory 
 in Ricardo Machado's thesis
-under my supervision, defended last March. We got an $O(n^2)$-algorithm for going from a special kind of gem, 
-named resoluble gems, to 
+under my supervision, defended in March, 2013. We got an $O(n^2)$-algorithm for going from a special kind of gem, 
+named {\em resoluble gem}, to 
 a blink inducing the same manifold. This work is available, in still rather sketch form (even the definition of 
 resolubility is unecessary complicated), in the three joint papers
 posted last year in the arXiv, {\cite {linsmachadoA2012, linsmachadoB2012, linsmachadoC2012}. The algorithm was
 implemented in Mathematica, but it needs to be improved and re-implemented in Java or C++. 
 We found a rather crude framed link presentation for
 the hyperbolic dodecahedral space (Weber-Seifert manifold). As far as I know nobody has found such 
-framed link. My interest in it was aroused by J. Weeks in a visit to the Geometry Center in 1994, when he asked me whether
-I had such framed link. The link inducing the Weber-Seifert 3-manifold is given by a 9-component link embedded 
-into $\mathbb{R}^3$ and having a total of 68 (only) vertices. (It started with more than 600.)
+framed link. My interest in it was aroused by J. Weeks in a visit to the Geometry Center in April 1993, when he asked me whether
+I had such framed link. The link inducing the Weber-Seifert 3-manifold is a 9-component link embedded 
+into $\mathbb{R}^3$, with an integer attached to each component (its framing) 
+and having a total of 68 (only) vertices. (It started with a PL-link with more than 600 verices.)
 In a fourth paper under preparation we will show 
 that every 3-manifold admits a resoluble gem inducing it.
 
 \section{The eleven classes of tough 3-manifolds}
-I assume that the reader has with him a copy of the previous challenge paper 
+I assume that the reader has with him a copy of the version 4 of previous challenge paper 
 (\cite{linslinschallenge2013}) 
 and has learned how to read the manifold either from the blink  or
 from the blackboard framed link, \cite{kauffman1994tlr}. As for obtaining a presentation
 of the fundamental group based on the Wirtinger relators  (\cite{stillwell1993classical}) 
 and the Dehn fillings (\cite{rolfsen2003knots})
 the two detailed examples given in \cite{linslinschallenge2013} should suffice, if the reader
-has no use other pieces of softwares to get the presentation by machine.
+has not available other pieces of softwares to get the presentation by automatic means. 
+Actually, the best way to enter these manifolds
+is to draw the blackboard framed link using SnapPy and informing the $w$ of each component as
+its self-writhe in the projection. The framing of that component to be informed to SnapPy is $(w,1)$.
 Actually the first two classes are resolved, only remaining the nine final ones.
 The complex numbers in polar form which appear at each $m^t_{p}$-class are the common 
-quantum WRT-invariants.
+quantum WRT-invariants. All except one of the eleven classes are formed by $Z$-homology spheres.
+The exception is $16^t_{56}$ which has no torsion but Betti number 1. These facts are indicated 
+by the small number in parenthesis (which  gives the homology of the manifold).
 
-\subsection{The $HG8QI_t$ class $14^t_{24}$:}
 
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=9cm]{1.figs/T14_24.pdf}
-\caption{\sf The above two manifolds are not homeomorphic. They are distinguished by the homology
-of their 5-covers. This was immediately noted by N. Dunfield using Sage and GAP from triangulations
-obtained by C. Nascimento using SnapPy, which could not find the Dirichlet domain due to numerical instability. 
-}
-\label{fig:firstdoubtA}
-\end{center}
-\end{figure}
+\noindent
+Nathan's Sage session distinguishing the two manifolds induced by the two blinks in $14^t_{24}$:
 \begin{verbatim}
 sage: from snappy import *
 sage: M1 = Manifold('1424_T71.tri')
@@ -212,17 +227,54 @@ sage: [C.homology() for C in covers1]
 sage: [C.homology() for C in covers2]
 [Z/3 + Z/3 + Z/3 + Z/3, Z/213 + Z/213, Z/432 + Z/432]
 \end{verbatim}
-Above is Dunfield's Sage session.
+
+
+
+\noindent
+Cristiana's Sage session distinguishing the two manifolds induced by the two blinks in $14^t_{24}$ and, 
+in conjuction with BLINK, topologically classfying the manifolds induced by  the four blinks in $15^t_{16}$:
+\begin{verbatim}
+M=1424_T71, N=1424_T79
+sage: [C.homology() for C in coversM]
+[Z/3 + Z/3 + Z/3 + Z/3, Z/63 + Z/63, Z/132 + Z/132]
+sage: [C.homology() for C in coversN]
+[Z/3 + Z/3 + Z/3 + Z/3, Z/213 + Z/213, Z/432 + Z/432]
+------------------------------------------------------
+A=1516_T118, B=1516_T119, C=1516_T181, D=1516_T205
+sage: [X.homology() for X in coversA]
+[Z/229773, Z/1110327, Z/3699687, Z/3018207]
+sage: [X.homology() for X in coversC]
+[Z/1110327, Z/229773, Z/3018207, Z/3699687]
+sage: [X.homology() for X in coversB]
+[Z/1052067, Z/3 + Z/1299909, Z/4117827, Z/126627]
+sage: [X.homology() for X in coversD]
+[Z/4117827, Z/1052067, Z/3 + Z/1299909, Z/126627]
+\end{verbatim}
+
+\eject
+\subsection{The $HG8QI_t$ class $14^t_{24}$:}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=10.0cm]{1.figs/T14_24.pdf}
+\caption{\sf The above two manifolds are not homeomorphic. They are distinguished by the homology
+of their 5-covers. This was immediately noted by N. Dunfield using Sage and GAP from triangulations
+obtained by C. Nascimento using SnapPy, which could not find the Dirichlet domain due to numerical instability. 
+}
+\label{fig:firstdoubtA}
+\end{center}
+\end{figure}
+
+Above, in verbatim style, is Dunfield's Sage session.
 \subsection{The $HG8QI_t$ class $15^t_{16}$:}
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=9cm]{1.figs/T15_16.pdf}
+\includegraphics[width=10.0cm]{1.figs/T15_16.pdf}
 \caption{\sf The above two manifolds are also non-homeomorphic. 
 They are also distinguished by the homology
-of their 5-covers. Relative to class $15^t_{24}$ class $15^t_{16}$
-demands much more time.
-This was obtained by C. Nascimento using SnapPy. The software
-could not find the Dirichlet domain due to numerical instability. 
+of their 5-covers. Relative to the class $15^t_{24}$ class $15^t_{16}$
+the Sage/GAP software demands much more time.
+This was obtained by C. Nascimento using SnapPy/Sage/GAP. The software
+SnapPy could not find the Dirichlet domain due to numerical instability. 
 }
 \label{fig:T15_16}
 \end{center}
@@ -233,7 +285,7 @@ could not find the Dirichlet domain due to numerical instability.
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=10cm]{1.figs/T15_19.pdf}
-\caption{\sf I do not know whether the above four manifolds are homeomorphic of not. 
+\caption{\sf I do not know whether the above four manifolds are homeomorphic or not. 
 BLINK says that there are at most two homeomorphisms classes among the four.
 }
 \label{fig:T15_19}
@@ -243,18 +295,19 @@ BLINK says that there are at most two homeomorphisms classes among the four.
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=10cm]{1.figs/T15_22.pdf}
-\caption{\sf Finding presentations for the fundamental groups of $M^ 3[2125]$ and $M^ 3[2165]$}
+\caption{\sf I do not know whether the above four manifolds are homeomorphic or not. 
+BLINK says that there are at most two homeomorphisms classes among the four.}
 \label{fig:T15_22}
 \end{center}
 \end{figure}
-
 
 \eject
 \subsection{The $HG8QI_t$ class $16^t_{42}$:}
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=10cm]{1.figs/T16_42.pdf}
-\caption{\sf In the case of gems the corresponding theory}
+\caption{\sf I do not know whether the above four manifolds are homeomorphic or not. 
+BLINK says that there are at most two homeomorphisms classes among the four.}
 \label{fig:T16_42}
 \end{center}
 \end{figure}
@@ -262,7 +315,8 @@ BLINK says that there are at most two homeomorphisms classes among the four.
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=10cm]{1.figs/T16_56.pdf}
-\caption{\sf In the case of gems the corresponding theory}
+\caption{\sf I do not know whether the above four manifolds are homeomorphic or not. 
+BLINK says that there are at most two homeomorphisms classes among the four.}
 \label{fig:T16_56}
 \end{center}
 \end{figure}
@@ -272,7 +326,8 @@ BLINK says that there are at most two homeomorphisms classes among the four.
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=12cm]{1.figs/T16_140.pdf}
-\caption{\sf In the case of gems the corresponding theory}
+\caption{\sf I do not know whether the above four manifolds are homeomorphic or not. 
+BLINK says that there are at most two homeomorphisms classes among the four.}
 \label{fig:T16_140}
 \end{center}
 \end{figure}
@@ -280,7 +335,7 @@ BLINK says that there are at most two homeomorphisms classes among the four.
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=12cm]{1.figs/T16_141.pdf}
-\caption{\sf In the case of gems the corresponding theory}
+\caption{\sf I do not know whether the above two manifolds are homeomorphic or not.}
 \label{fig:T16_141}
 \end{center}
 \end{figure}
@@ -290,7 +345,7 @@ BLINK says that there are at most two homeomorphisms classes among the four.
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=12cm]{1.figs/T16_142.pdf}
-\caption{\sf In the case of gems the corresponding theory}
+\caption{\sf I do not know whether the above two manifolds are homeomorphic or not.}
 \label{fig:T16_142}
 \end{center}
 \end{figure}
@@ -298,7 +353,8 @@ BLINK says that there are at most two homeomorphisms classes among the four.
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=12cm]{1.figs/T16_149.pdf}
-\caption{\sf In the case of gems the corresponding theory}
+\caption{\sf I do not know whether the above four manifolds are homeomorphic or not. 
+BLINK says that there are at most two homeomorphisms classes among the four.}
 \label{fig:T16_149}
 \end{center}
 \end{figure}
@@ -308,13 +364,13 @@ BLINK says that there are at most two homeomorphisms classes among the four.
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=12cm]{1.figs/T16_233.pdf}
-\caption{\sf In the case of gems the corresponding theory}
+\caption{\sf I do not know whether the above two manifolds are homeomorphic or not.}
 \label{fig:T16_233}
 \end{center}
 \end{figure}
 
 
-\input{conclbibaffi}
+\include{conclbibaffi}
 
 % \section{Conclusion}
 % A closed orientable 3-manifold is denoted {\em $n$-small} if it is induced by surgery on

@@ -1,9 +1,16 @@
-@article{lovasz1998one,
-  title={One mathematics},
-  author={Lov{\'a}sz, L{\'a}szl{\'o}},
-  journal={The Berliner Intelligencer, Berlin},
-  pages={10--15},
-  year={1998}
+@manual{sage2012,
+    Author = {Stein, W.},
+    Key = {SAGE},
+    Organization = {The Sage~Group},
+    Title = {{Sage}: {O}pen {S}ource {M}athematical {S}oftware ({V}ersion 2.10.2)},
+    Note= {{\tt http://www.sagemath.org}},
+    Year = 2008
+}
+
+@misc{gap2002gap,
+  title={GAP -- {G}roups, {A}lgorithms and {P}rogramming, Version 4.3},
+  author={GAP Group and others},
+  year={2002}
 }
 
 @article{hodgson1994symmetries,
