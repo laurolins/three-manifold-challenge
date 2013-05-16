@@ -68,7 +68,9 @@ In this paper I focus on new uncertainties left unanswered in L. Lins thesis \ci
 on the homemorphism problem of eleven concrete pairs of closed orientable 3-manifolds induced
 by 3-connected monochromatic {\em blinks} (\cite{kauffman1994tlr}). The eleven HG8QI-classes are the 
 only doubts left in the thesis, but the first two of them were solved few days ago and 
-in this work I report on their solutions.
+in this work I report on their solutions. We also include an appendix which can be used
+to import all the links of this paper into SnapPy. The appendix was obtained by drawing the links
+in SnapPy, work performed by C. Nascimento.
 
 
 \end{abstract}
@@ -80,7 +82,7 @@ my son Lauro Lins and myself ask some 6 years old questions for which we had no 
 about homeomorphisms between closed orientable 3-manifolds. The two pairs of 3-manifolds
 were the only uncertainties that were left in L. Lins thesis  
 (\cite{lins2007blink}) under my supervision in the 
-domain of 3-manifolds being induced by monochromatic blinks
+domain of 3-manifolds being induced by arbitrary connected blinks
 up to 9 edges (9-small 3-manifolds).
 A subset of relevant 10-crossings blinks were generated but their topological classification remains untouched.
 The paper was taken seriously by a few researchers, among them M. Culler, N. Dunfield, C. Hodgson 
@@ -201,7 +203,7 @@ and having a total of 68 (only) vertices with a projection having 142 crossings.
 In a fourth joint paper with R. Machado, currently under preparation,
 we will show that every 3-manifold admits a resoluble gem inducing it.
 
-\section{The eleven classes of tough 3-manifolds}
+\section{The 11 $HG8QI_t$-classes of blinks left unresolved in \cite{lins2007blink}}
 I assume that the reader has with him a copy of the version 4 of previous challenge paper 
 (\cite{linslinschallenge2013}) 
 and has learned how to read the manifold either from the blink  or
@@ -213,15 +215,13 @@ has not available other pieces of softwares to get the presentation by automatic
 Actually, the best way to enter these manifolds
 is to draw the blackboard framed link using SnapPy and informing the $w$ of each component as
 its self-writhe in the projection. The framing of that component to be informed to SnapPy is $(w,1)$.
-Actually the first two classes are resolved, only remaining the nine final ones.
 The complex numbers in polar form which appear at each $m^t_{p}$-class are the common 
 quantum WRT-invariants. All except one of the eleven classes are formed by $Z$-homology spheres.
 The exception is $16^t_{56}$ which has no torsion but Betti number 1. These facts are indicated 
 by the small number in parenthesis (which  gives the homology of the manifold).
-
-
-\noindent
-Nathan's Sage session distinguishing the two manifolds induced by the two blinks in $14^t_{24}$:
+Actually the first two classes were recently resolved, only remaining the nine final ones.
+Here is N. Dunfield's Sage session distinguishing the two manifolds 
+induced by the two blinks in $14^t_{24}$:
 \begin{verbatim}
 sage: from snappy import *
 sage: M1 = Manifold('1424_T71.tri')
@@ -233,11 +233,8 @@ sage: [C.homology() for C in covers1]
 sage: [C.homology() for C in covers2]
 [Z/3 + Z/3 + Z/3 + Z/3, Z/213 + Z/213, Z/432 + Z/432]
 \end{verbatim}
-
-
-
-\noindent
-Cristiana's Sage session distinguishing the two manifolds induced by the two blinks in $14^t_{24}$ and, 
+and Cristiana's Sage session also 
+distinguishing the two manifolds induced by the two blinks in $14^t_{24}$ and, 
 in conjuction with BLINK, topologically classifying the manifolds induced by  the four blinks in $15^t_{16}$:
 \begin{verbatim}
 M=1424_T71, N=1424_T79
@@ -380,6 +377,7 @@ this bound is attained.}
 
 
 \include{conclbibaffi}
+\input{LinkFilesTchallenge.Cristiana}
 
 % \section{Conclusion}
 % A closed orientable 3-manifold is denoted {\em $n$-small} if it is induced by surgery on

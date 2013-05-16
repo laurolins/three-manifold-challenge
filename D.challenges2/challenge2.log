@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.11)  12 MAY 2013 11:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.11)  16 MAY 2013 06:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -310,141 +310,288 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 98--111
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 100--113
 
  []
 
-[1
+[2] [3] [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
-<1.figs/T14_24.pdf, id=29, 401.50227pt x 187.13611pt>
+ [5]
+<1.figs/T14_24.pdf, id=32, 401.50227pt x 187.13611pt>
 File: 1.figs/T14_24.pdf Graphic file (type pdf)
  <use 1.figs/T14_24.pdf>
-Package pdftex.def Info: 1.figs/T14_24.pdf used on input line 264.
+Package pdftex.def Info: 1.figs/T14_24.pdf used on input line 261.
 (pdftex.def)             Requested size: 284.52756pt x 132.61342pt.
 
-<1.figs/T15_16.pdf, id=30, 386.47122pt x 307.05731pt>
+<1.figs/T15_16.pdf, id=33, 386.47122pt x 307.05731pt>
 File: 1.figs/T15_16.pdf Graphic file (type pdf)
  <use 1.figs/T15_16.pdf>
-Package pdftex.def Info: 1.figs/T15_16.pdf used on input line 275.
+Package pdftex.def Info: 1.figs/T15_16.pdf used on input line 272.
 (pdftex.def)             Requested size: 284.52756pt x 226.06157pt.
 
-[5 <./1.figs/T14_24.pdf> <./1.figs/T15_16.pdf
+[6 <./1.figs/T14_24.pdf> <./1.figs/T15_16.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./1.figs/T15_16.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
->] <1.figs/T15_19.pdf, id=67, 386.4685pt x 297.28775pt>
+>] <1.figs/T15_19.pdf, id=70, 386.4685pt x 297.28775pt>
 File: 1.figs/T15_19.pdf Graphic file (type pdf)
 
 <use 1.figs/T15_19.pdf>
-Package pdftex.def Info: 1.figs/T15_19.pdf used on input line 291.
+Package pdftex.def Info: 1.figs/T15_19.pdf used on input line 288.
 (pdftex.def)             Requested size: 256.0748pt x 196.99529pt.
- <1.figs/T15_22.pdf, id=68, 386.45839pt x 298.32404pt>
+ <1.figs/T15_22.pdf, id=71, 386.45839pt x 298.32404pt>
 File: 1.figs/T15_22.pdf Graphic file (type pdf)
 
 <use 1.figs/T15_22.pdf>
-Package pdftex.def Info: 1.figs/T15_22.pdf used on input line 301.
+Package pdftex.def Info: 1.figs/T15_22.pdf used on input line 298.
 (pdftex.def)             Requested size: 256.0748pt x 197.68198pt.
- [6 <./1.figs/T15_19.pdf> <./1.figs/T15_22.pdf
+ [7 <./1.figs/T15_19.pdf> <./1.figs/T15_22.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./1.figs/T15_22.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
->] <1.figs/T16_42.pdf, id=95, 388.83293pt x 288.8486pt>
+>] <1.figs/T16_42.pdf, id=99, 388.83293pt x 288.8486pt>
 File: 1.figs/T16_42.pdf Graphic file (type pdf)
 
 <use 1.figs/T16_42.pdf>
-Package pdftex.def Info: 1.figs/T16_42.pdf used on input line 313.
+Package pdftex.def Info: 1.figs/T16_42.pdf used on input line 310.
 (pdftex.def)             Requested size: 256.0748pt x 190.23518pt.
- <1.figs/T16_56.pdf, id=96, 386.46323pt x 306.42354pt>
+ <1.figs/T16_56.pdf, id=100, 386.46323pt x 306.42354pt>
 File: 1.figs/T16_56.pdf Graphic file (type pdf)
 
 <use 1.figs/T16_56.pdf>
-Package pdftex.def Info: 1.figs/T16_56.pdf used on input line 323.
+Package pdftex.def Info: 1.figs/T16_56.pdf used on input line 320.
 (pdftex.def)             Requested size: 256.0748pt x 203.04904pt.
- [7 <./1.figs/T16_42.pdf> <./1.figs/T16_56.pdf
+ [8 <./1.figs/T16_42.pdf> <./1.figs/T16_56.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./1.figs/T16_56.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
->] <1.figs/T16_140.pdf, id=130, 386.4753pt x 294.52177pt>
+>] <1.figs/T16_140.pdf, id=133, 386.4753pt x 294.52177pt>
 File: 1.figs/T16_140.pdf Graphic file (type pdf)
 
 <use 1.figs/T16_140.pdf>
-Package pdftex.def Info: 1.figs/T16_140.pdf used on input line 335.
+Package pdftex.def Info: 1.figs/T16_140.pdf used on input line 332.
 (pdftex.def)             Requested size: 312.9803pt x 238.51639pt.
 
-<1.figs/T16_141.pdf, id=131, 402.91403pt x 188.52652pt>
+<1.figs/T16_141.pdf, id=134, 402.91403pt x 188.52652pt>
 File: 1.figs/T16_141.pdf Graphic file (type pdf)
 
 <use 1.figs/T16_141.pdf>
-Package pdftex.def Info: 1.figs/T16_141.pdf used on input line 345.
+Package pdftex.def Info: 1.figs/T16_141.pdf used on input line 342.
 (pdftex.def)             Requested size: 312.9803pt x 146.44598pt.
 
 Underfull \vbox (badness 1552) has occurred while \output is active []
 
- [8 <./1.figs/T16_140.pdf> <./1.figs/T16_141.pdf
+ [9 <./1.figs/T16_140.pdf> <./1.figs/T16_141.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./1.figs/T16_141.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <1.figs/T16_142.pdf, id=158, 408.1927pt x 188.77864pt>
+>] <1.figs/T16_142.pdf, id=161, 408.1927pt x 188.77864pt>
 File: 1.figs/T16_142.pdf Graphic file (type pdf)
 
 <use 1.figs/T16_142.pdf>
-Package pdftex.def Info: 1.figs/T16_142.pdf used on input line 355.
+Package pdftex.def Info: 1.figs/T16_142.pdf used on input line 352.
 (pdftex.def)             Requested size: 341.43306pt x 157.90468pt.
 
-<1.figs/T16_149.pdf, id=159, 389.3575pt x 292.28622pt>
+<1.figs/T16_149.pdf, id=162, 389.3575pt x 292.28622pt>
 File: 1.figs/T16_149.pdf Graphic file (type pdf)
 
 <use 1.figs/T16_149.pdf>
-Package pdftex.def Info: 1.figs/T16_149.pdf used on input line 363.
+Package pdftex.def Info: 1.figs/T16_149.pdf used on input line 360.
 (pdftex.def)             Requested size: 341.43306pt x 256.31621pt.
- [9 <./1.figs/T16_142.pdf> <./1.figs/T16_149.pdf
+ [10 <./1.figs/T16_142.pdf> <./1.figs/T16_149.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./1.figs/T16_149.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <1.figs/T16_233.pdf, id=187, 409.1875pt x 193.6096pt>
+>] <1.figs/T16_233.pdf, id=190, 409.1875pt x 193.6096pt>
 File: 1.figs/T16_233.pdf Graphic file (type pdf)
 
 <use 1.figs/T16_233.pdf>
-Package pdftex.def Info: 1.figs/T16_233.pdf used on input line 375.
+Package pdftex.def Info: 1.figs/T16_233.pdf used on input line 372.
 (pdftex.def)             Requested size: 341.43306pt x 161.56151pt.
- [10 <./1.figs/T16_233.pdf>]
+ [11 <./1.figs/T16_233.pdf>]
 \openout2 = `conclbibaffi.aux'.
 
  (./conclbibaffi.tex
-<1.figs/DirDomT71.pdf, id=203, 300.02715pt x 325.10663pt>
+<1.figs/DirDomT71.pdf, id=206, 300.02715pt x 325.10663pt>
 File: 1.figs/DirDomT71.pdf Graphic file (type pdf)
 
 <use 1.figs/DirDomT71.pdf>
 Package pdftex.def Info: 1.figs/DirDomT71.pdf used on input line 29.
 (pdftex.def)             Requested size: 199.16928pt x 215.82112pt.
 
-<1.figs/DirDomT79.pdf, id=204, 300.02715pt x 325.10663pt>
+<1.figs/DirDomT79.pdf, id=207, 300.02715pt x 325.10663pt>
 File: 1.figs/DirDomT79.pdf Graphic file (type pdf)
 
 <use 1.figs/DirDomT79.pdf>
 Package pdftex.def Info: 1.figs/DirDomT79.pdf used on input line 30.
 (pdftex.def)             Requested size: 199.16928pt x 215.82112pt.
- (./challenge2.bbl [11
+ (./challenge2.bbl [12
 
  <./1.figs/DirDomT71.pdf> <./1.figs/DirDomT79.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./1.figs/DirDomT79.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->]) [12]) [13] (./challenge2.aux (./conclbibaffi.aux)) )
+>]) [13]) [14] (./LinkFilesTchallenge.Cristiana.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61])
+[62] (./challenge2.aux (./conclbibaffi.aux)) )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 192 ({)
+### simple group (level 1) entered at line 194 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3501 strings out of 493485
- 46585 string characters out of 3143526
- 114131 words of memory out of 3000000
- 6720 multiletter control sequences out of 15000+200000
- 16072 words of font info for 62 fonts, out of 3000000 for 9000
+ 3511 strings out of 493485
+ 46795 string characters out of 3143526
+ 122447 words of memory out of 3000000
+ 6725 multiletter control sequences out of 15000+200000
+ 17319 words of font info for 67 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,8n,31p,476b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,8n,31p,476b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -461,10 +608,10 @@ mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on challenge2.pdf (13 pages, 503925 bytes).
+Output written on challenge2.pdf (62 pages, 530108 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
+ 459 PDF objects out of 1000 (max. 8388607)
+ 314 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
