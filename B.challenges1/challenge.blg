@@ -1,63 +1,62 @@
 This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: challenge2.aux
-A level-1 auxiliary file: conclbibaffi.aux
+The top-level auxiliary file: challenge.aux
 The style file: plain.bst
 Database file #1: bibtexIndex.bib.bib
-I was expecting a `,' or a `}'---line 1055 of file bibtexIndex.bib.bib
+I was expecting a `,' or a `}'---line 803 of file bibtexIndex.bib.bib
  : 
  : @article{joli2012B,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1349 of file bibtexIndex.bib.bib
+I was expecting a `,' or a `}'---line 1097 of file bibtexIndex.bib.bib
  : 
  : @article{polyak2010minimal,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 6277 of file bibtexIndex.bib.bib
+I was expecting a `,' or a `}'---line 6027 of file bibtexIndex.bib.bib
  : 
  : %160
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 You've used 17 entries,
             2118 wiz_defined-function locations,
-            591 strings with 6330 characters,
-and the built_in function-call counts, 4192 in all, are:
-= -- 403
-> -- 172
-< -- 1
-+ -- 71
-- -- 52
-* -- 208
-:= -- 745
-add.period$ -- 50
+            594 strings with 5923 characters,
+and the built_in function-call counts, 4158 in all, are:
+= -- 393
+> -- 149
+< -- 2
++ -- 65
+- -- 44
+* -- 218
+:= -- 722
+add.period$ -- 48
 call.type$ -- 17
-change.case$ -- 71
+change.case$ -- 65
 chr.to.int$ -- 0
 cite$ -- 17
-duplicate$ -- 182
-empty$ -- 355
-format.name$ -- 52
-if$ -- 868
+duplicate$ -- 180
+empty$ -- 384
+format.name$ -- 44
+if$ -- 867
 int.to.chr$ -- 0
 int.to.str$ -- 17
-missing$ -- 18
-newline$ -- 87
+missing$ -- 21
+newline$ -- 85
 num.names$ -- 34
-pop$ -- 96
+pop$ -- 103
 preamble$ -- 1
-purify$ -- 59
+purify$ -- 55
 quote$ -- 0
-skip$ -- 131
+skip$ -- 122
 stack$ -- 0
-substring$ -- 164
-swap$ -- 25
-text.length$ -- 1
+substring$ -- 195
+swap$ -- 19
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 54
 warning$ -- 0
-while$ -- 42
+while$ -- 43
 width$ -- 19
-write$ -- 174
+write$ -- 173
 (There were 3 error messages)
